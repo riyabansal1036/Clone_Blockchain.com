@@ -2,19 +2,37 @@
     margin: 0px;
     padding: 0px;
 }
-.box1{
-    display: flex;
-    background-color: blue;
+
+ .box1{
+    display: flex; 
+     background-color: blue;
     height: 45px;
     position: fixed;
-    width: 100%;
+    width: 100vw;
+     display: flex; 
+    flex-wrap: wrap;
    
     color: white;
    font-weight: 500;
    font-size: 17px;
+   text-align: center;
    
     align-items: center;
    justify-content: center;
+
+
+   
+} 
+
+
+#box1{
+    position: sticky;
+    background-color: blue;
+    height: 45px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
 }
 #navbar{
     display: flex;
@@ -24,12 +42,14 @@
     background-color: rgb(47, 47, 138);
     color: white;
     width: 100vw;
+    /* width: fit-content; */
 
 }
 #navbar ul{
     display: flex;
     margin: 25px;
     padding: 25px;
+    /* overflow: hidden; */
 }
 
 
@@ -68,9 +88,9 @@
  
 .item1{
     font-size: 27px;
-    padding-right: 21px;
-    margin-left: -46px;
-    margin-top: 8px;
+    padding-right: 25px;
+    margin-left: -35px;
+    margin-top: 11px;
     
 }
 .item{
@@ -138,6 +158,9 @@
    padding-left: 190px;
    /* position: relative; */
    /* background-color: brown; */
+  width: auto;
+   flex-wrap: wrap;
+
    
 }
 .box5{
@@ -238,8 +261,9 @@ p{
 
 .container2{
    /* display: flex; */
+   /* background-image: url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/purple_background.png"); */
     height: 1000px;
-    background-color:rgb(199, 231, 244);
+    background-color:rgba(125, 139, 232, 0.803);
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -268,7 +292,7 @@ p{
     margin-top: 80px;
     margin-bottom: 80px;
     width: 40vw;
-    background-image: url("bg-image.jpg");
+    background-image: url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/purple_background.png");
     padding-left: 100px;
     
     
@@ -277,12 +301,12 @@ p{
 .x p{
     font-size: 50px;
     margin: 15px;
-    color: blue;
+    color: rgba(9, 9, 103, 0.534);
 }
 .col1{
     height: 90px;
-    background-color:rgb(193, 228, 242);
-    color: rgb(27, 27, 234);
+    background-color:rgb(190, 187, 239);
+    color: rgb(93, 93, 222);
     margin: 20px ;
     padding: 30px;
     font-size: 20px;
@@ -292,12 +316,12 @@ p{
 }
 .col{
     height: 50px;
-    background-color: rgb(224, 238, 244);
+    background-color: rgb(207, 213, 239);
     margin: 20px;
     padding: 15px;
     font-size: 20px;
     border-radius: 15px;
-    color: rgb(27, 27, 234);
+    color: rgb(8, 8, 99);
     border: 2px solid grey;
 }
 .btn4{
@@ -315,7 +339,7 @@ p{
 }
 .container3{
     height: 1000px;
-    background-color:rgba(184, 218, 184, 0.803);
+    background-color:rgba(130, 198, 227, 0.803);
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -334,7 +358,7 @@ p{
     margin-top: 80px;
     margin-bottom: 80px;
     width: 40vw;
-    background-image: url("bg-image1.jpg");
+    background-image: url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/blue_background.png");
     padding-left: 130px;
     padding-top: 30px;
 }
@@ -349,8 +373,8 @@ p{
 }
 .col2{
     height: 90px;
-    background-color:rgb(159, 227, 159);
-    color: rgb(8, 39, 8);
+    background-color:rgb(101, 219, 246);
+    color: rgb(13, 97, 96);
     margin: 20px ;
     padding: 30px;
     font-size: 20px;
@@ -365,26 +389,26 @@ p{
     padding: 15px;
     font-size: 20px;
     border-radius: 15px;
-    color: rgb(8, 39, 8);
+    color: rgb(20, 159, 174);
     border: 2px solid grey;
 }
 .y p{
     font-size: 50px;
     margin: 15px;
-    color: darkgreen;
+    color: rgb(34, 127, 203);
 }
 .btn5{
     margin-left: 25px;
     padding: 15px;
     border-radius: 10px;
     font-size: 15px;
-    background-color:darkgreen;
+    background-color:rgb(14, 97, 103);
     color: white;
     border: 1px solid white;
     cursor: pointer;
 }
 .btn5:hover{
-    background-color: green;
+    background-color: rgb(16, 102, 102);
 }
 .container4{
     height: 1000px;
@@ -416,7 +440,7 @@ p{
     margin-top: 80px;
     margin-bottom: 80px;
     width: 40vw;
-    background-image: url("bg-image2.jpg");
+    background-image: url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/grey_background.png");
     padding-left: 100px;
     
     
@@ -454,8 +478,9 @@ p{
 
 .container5{
     /* display: flex; */
+      /* background-image: url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/purple_background.png"); */
      height: 1000px;
-     background-color:rgba(149, 94, 94, 0.967);
+     background-color:rgb(235, 205, 151);
      justify-content: center;
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -484,7 +509,7 @@ p{
      margin-top: 80px;
      margin-bottom: 80px;
      width: 40vw;
-     background-image: url("bg-image3.jpg");
+     background-image: url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/orange_background.png");
      padding-left: 100px;
      
      
@@ -644,56 +669,292 @@ h3{
     cursor: pointer;
     /* padding-bottom: 20px; */
  }
+ .links{
+    /* font-size: 12px; */
+    padding: 35px;
+ }
+ .inner-links{
+    max-width: 1100px;
+    margin: 0 auto ;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-gap: 70px;
+    /* align-items: flex-start; */
+    justify-content: center;
+ }
 
 
- /* -top: 45px;
-        margin
- @media (min-width:360px)
+ 
+
+ @media only screen and (max-width:281px)
  {
-    .box1{
-        
-        width: 31%;
-       
-        
+    .box1,.container,.container2,.container3,.container4,.container5,.container7{
+        width: 115vw;
     }
-   
-    
+    #navbar{
+        width: 115vw;
+    } 
     #logo img{
-        height: 23px;
-        padding-left: 7px; 
-        justify-content: center;
-        /* margin-top: 3px; */
-   /* } 
-    .item2{
-        font-size: 13px;
-        margin-left: 46px;
-        margin-top: 17px;
-    }
-    .item{
-        font-size: 11px;
-        margin-top: 15px;
+        padding-left: 20px;
     }
     .box3{
-        font-size: 9px;
-        margin-left: 9px;
+        font-size: 5px;
+    }
+    .btn{
+        margin-left: 185px;
+    }
+    .container1{
+        height: 600px;
+    }
+    .container2,.container3,.container4,.container5{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    
+    .box5,.box6,.box7,.box8{
+        margin-left: -167px;
+        margin-bottom: 97px;
+    }
+    .box9,.box15{
+        margin-left: 35px;
+        width: 382px;
+
+    }
+    .box12{
+        margin-left: 152px;
+        width: 240px;
+    }
+    .box10,.box11,.box14,.box16{
+        display: none;
+    }
+    .box13{
+        width: 411px;
+        margin-left: 35px;
+    }
+    .w{
+        font-size: 27px;
+    }
+    .x p,.y p,.z p,.w p{
+        font-size: 24px;
+    }
+    .button{
+        display: none;
+    }
+    .links .inner-links{
+        grid-template-columns: repeat(1,1fr) ;
+    }
+
+
+ }
+ @media (min-width:282px) and (  max-width:415px)
+ {
+    .box1,.container,.container2,.container3,.container4,.container5,.container7{
+        width: 115vw;
+    }
+    .box1{
+        font-size: 12px;
+    }
+    #logo img{
+        padding-left: 17px;
+    }
+    .box3{
+        margin-left: -52px;
+        font-size: 7px;
     }
     .box4{
-        margin-top: 278px;
-        margin-left: 65px;
+        margin-left: -164px;
+    margin-top: 202px;
     }
-    .box6{
-        margin-top: 45px;
-        margin: 66px;
+    .item{
+        display: none;
     }
-    .box7{
-        margin-top: 45px;
-        margin: 66px;
+    .btn,.btn1{
+        font-size: 9px;
+        padding: 11px;
     }
-    .box8{
-        margin: 66px;
+    .container1{
+        height: 600px;
+    }
+    .box5,.box6,.box7,.box8{
+        margin-bottom: 97px;
+        margin-left: -152px;
+    }
+    .btn6{
+        margin-top: 30px;
+    }
+    .container2,.container3,.container4,.container5{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .box9,.box15{
+        margin-left: -14px;
+        width: 360px;
+    }
+    .box12{
+        margin-left: 10px;
+        width: 300px;
+    }
+    .box10,.box11,.box14,.box16{
+        display: none;
+    }
+    .box13{
+        width: 414px;
+        margin-left: 35px;
+    }
+    .w{
+        font-size: 27px;
+    }
+    .x p,.y p,.z p,.w p{
+        font-size: 24px;
+    }
+    .button{
+        display: none;
+    } 
+    .links .inner-links{
+        grid-template-columns: repeat(2,1fr) ;
+    }
+ }
+ @media (min-width:416px) and (  max-width:541px)
+ {
+    .box1,.container,.container2,.container3,.container4,.container5,.container7{
+        width: 115vw;
+    }
+    .box1{
+        font-size: 12px;
+    }
+    #logo img{
+        padding-left: 17px;
+    }
+    .box3{
+        margin-left: -52px;
+    font-size: 12px;
+    }
+    .box4{
+        margin-left: -219px;
+    margin-top: 292px;
+    }
+    .item{
+        display: none;
+    }
+    .btn,.btn1{
+        font-size: 9px;
+        padding: 11px;
+    }
+    .container1{
+        height: 600px;
+    }
+    .box5,.box6,.box7,.box8{
+        margin-bottom: 97px;
+        margin-left: -61px;
+    }
+    .container2,.container3,.container4,.container5{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .box9,.box15{
+        margin-left: 80px;
+        width: 360px;
+    }
+    .box12{
+        margin-left: 95px;
+        width: 300px;
+    }
+    .box10,.box11,.box14,.box16{
+        display: none;
+    }
+    .box13{
+        width: 414px;
+        margin-left: 35px;
+    }
+    .btn6{
+        margin-top: 30px;
+    }
+    .w{
+        font-size: 27px;
+    }
+    .x p,.y p,.z p,.w p{
+        font-size: 24px;
+    }
+    .button{
+        display: none;
+    } 
+    .links .inner-links{
+        grid-template-columns: repeat(1,1fr) ;
+    }
+ }
+ @media (min-width:541px) and (  max-width:915px)
+ {
+    .item{
+        display: none;
+    }
+    .item2 .bt1{
+        margin-left: 94px;
+    }
+    .box3{
+        margin-left: -98px;
+        font-size: 20px;
+    
+    }
+    .box4{
+        margin-left: -286px;
+    }
+    .container1{
+        height: 500px;
+    }
+    .box5, .box7{
+        margin-left: -43px;
+    }
+    .box9,.box15{
+        margin-left: 150px;
+        width: 364px;
+    }
+    .box12{
+        margin-left: 165px;
+        
+    }
+    .box10,.box11,.box14,.box16{
+        display: none;
+    }
+    .box13{
+        width: 54vw;
+        
+    }
+    .btn6{
+        margin-top: 30px;
+    }
+
+}
+@media (min-width:916px) and (  max-width:1281px)
+{
+    #logo img{
+        padding-left: 16px;
+    }
+    .item2 .bt1 {
+        margin-left: 163px;
+    }
+    .box3{
+        margin-left: -70px;
+    }
+    .btn{
+        margin-left: 308px;
+    }
+    .btn6{
+        margin-top: 30px;
+    }
+    .container1{
+        height: 300px;
     }
     .box5{
-        margin: 65px;
+        margin-bottom: 72px;
     }
- }*/
+    .box10,.box14,.box16{
+        margin-right: 137px;
+    }
+    .box11{
+        margin-left: 166px;
+    }
+}
 
+  
