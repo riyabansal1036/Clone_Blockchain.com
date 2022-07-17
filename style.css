@@ -284,7 +284,7 @@ p{
     margin-top: 80px;
     margin-bottom: 80px;
     width: 40vw;
-    background-image: url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/purple_background.png");
+    background-image: url("images/blue.png");
     padding-left: 100px;
     
     
@@ -350,7 +350,7 @@ p{
     margin-top: 80px;
     margin-bottom: 80px;
     width: 40vw;
-    background-image: url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/blue_background.png");
+    background-image: url("images/sky blue.png");
     padding-left: 130px;
     padding-top: 30px;
 }
@@ -432,7 +432,7 @@ p{
     margin-top: 80px;
     margin-bottom: 80px;
     width: 40vw;
-    background-image: url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/grey_background.png");
+    background-image: url("images/grey.png");
     padding-left: 100px;
     
     
@@ -501,7 +501,7 @@ p{
      margin-top: 80px;
      margin-bottom: 80px;
      width: 40vw;
-     background-image: url("https://blockchain-clone-id9d6mbcl-ankitajain06.vercel.app/images/orange_background.png");
+     background-image: url("images/orange.png");
      padding-left: 100px;
      
      
@@ -948,5 +948,3 @@ h3{
         margin-left: 166px;
     }
 }
-
-  
